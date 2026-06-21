@@ -1,56 +1,49 @@
-# Welcome to your Expo app 👋
+# 🛍️ TokoModeMart - Aplikasi E-Commerce Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**TokoModeMart** adalah aplikasi belanja online modern yang dibangun dengan **Expo** dan **React Native**, menggunakan **TypeScript** untuk memberikan pengalaman berbelanja yang cepat, aman, dan menyenangkan. Aplikasi ini dirancang untuk memudahkan pengguna menemukan dan membeli berbagai produk kebutuhan sehari-hari [citation:4][citation:9].
 
-## Get started
+## 📱 Tampilan dan Fitur Aplikasi
 
-1. Install dependencies
+Berikut adalah gambaran fitur utama yang tersedia dalam aplikasi:
 
-   ```bash
-   npm install
-   ```
+### 1. Halaman Utama (Home)
+Halaman utama menyajikan katalog produk dengan tata letak grid yang bersih dan terstruktur [citation:5]. Di sini, pengguna dapat dengan cepat melihat:
+*   **Produk Unggulan**: Menampilkan produk-produk pilihan atau terlaris.
+*   **Kategori**: Ikon kategori seperti "Diskon", "Terlaris", dan "Rekomendasi" untuk memudahkan navigasi [citation:5].
+*   **Informasi Produk**: Setiap produk ditampilkan dengan gambar, nama, harga, dan label penting lainnya [citation:2].
 
-2. Start the app
+### 2. Pencarian dan Filter
+Pengguna dapat mencari produk yang diinginkan melalui kolom pencarian. Fitur ini memungkinkan pencarian berdasarkan nama produk atau kategori, sehingga pengguna dapat menemukan barang dengan cepat dan efisien.
 
-   ```bash
-   npx expo start
-   ```
+### 3. Keranjang Belanja
+Fitur keranjang memungkinkan pengguna mengumpulkan produk yang ingin dibeli sebelum melanjutkan ke proses checkout. Di halaman ini, pengguna dapat:
+*   Melihat daftar produk yang telah dipilih.
+*   Mengubah jumlah (quantity) produk.
+*   Menghapus produk dari keranjang.
+*   Melihat total harga belanja.
 
-In the output, you'll find options to open the app in a
+### 4. Proses Checkout
+Proses pembayaran dirancang semudah mungkin. Pengguna akan dipandu untuk:
+*   Memasukkan alamat pengiriman.
+*   Memilih metode pengiriman yang tersedia.
+*   Melakukan pembayaran melalui berbagai metode yang didukung.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 5. Manajemen Akun
+Pengguna dapat mengelola profil dan riwayat pembelian mereka melalui halaman akun. Fitur ini biasanya mencakup:
+*   **Profil Pengguna**: Melihat dan mengedit data diri.
+*   **Riwayat Pesanan**: Melihat daftar pesanan yang telah dilakukan beserta statusnya.
+*   **Alamat Tersimpan**: Mengelola daftar alamat pengiriman favorit.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Cara Menjalankan Aplikasi
 
-## Get a fresh project
+Untuk menjalankan proyek ini di lingkungan pengembangan lokal, ikuti langkah-langkah berikut:
 
-When you're ready, run:
+**Prasyarat**
+Pastikan Anda telah menginstal **Node.js** dan **npm** atau **yarn** di komputer Anda.
 
-```bash
-npm run reset-project
-```
+**Langkah Instalasi**
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1.  **Clone Repository**
+    ```bash
+    git clone https://github.com/Ardhie14/TokoModeMart.git
+    cd TokoModeMart
