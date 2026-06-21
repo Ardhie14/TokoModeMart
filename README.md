@@ -19,9 +19,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Login](./IMG_20260621_160414.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160414.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160414.jpg" alt="Halaman Login" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -34,9 +32,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Beranda](./IMG_20260621_160517.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160517.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160517.jpg" alt="Halaman Beranda" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -49,9 +45,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Keranjang Belanja](./IMG_20260621_160502.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160502.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160502.jpg" alt="Halaman Keranjang Belanja" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -64,9 +58,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Checkout](./IMG_20260621_160717.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160717.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160717.jpg" alt="Halaman Checkout" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -79,9 +71,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Detail Produk](./IMG_20260621_160726.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160726.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160726.jpg" alt="Halaman Detail Produk" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -94,9 +84,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Riwayat Pesanan](./IMG_20260621_160447.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160447.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160447.jpg" alt="Halaman Riwayat Pesanan" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -109,9 +97,7 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 
 **Tampilan:**
 
-![Halaman Profil Pengguna](./IMG_20260621_160434.jpg)
-
-> *Jika gambar tidak muncul, pastikan file `IMG_20260621_160434.jpg` sudah di-upload ke repositori*
+<img src="./IMG_20260621_160434.jpg" alt="Halaman Profil Pengguna" width="250" style="border-radius: 8px; border: 1px solid #ddd;">
 
 ---
 
@@ -121,8 +107,6 @@ Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta 
 |---|---|
 | **Judul Halaman** | Bottom Navigation |
 | **Deskripsi** | Di setiap halaman utama, terdapat navigasi bawah yang memudahkan pengguna berpindah antar halaman:<br> • **Beranda** - Kembali ke halaman utama.<br> • **Keranjang** - Melihat keranjang belanja.<br> • **Riwayat** - Melihat riwayat pesanan.<br> • **Profil** - Mengelola akun pengguna. |
-
-**Tampilan:** Terlihat di bagian bawah setiap screenshot halaman aplikasi
 
 ---
 
