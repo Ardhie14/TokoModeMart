@@ -1,38 +1,70 @@
 # 🛍️ TokoModeMart - Aplikasi E-Commerce Mobile
 
-**TokoModeMart** adalah aplikasi belanja online modern yang dibangun dengan **Expo** dan **React Native**, menggunakan **TypeScript** untuk memberikan pengalaman berbelanja yang cepat, aman, dan menyenangkan. Aplikasi ini dirancang untuk memudahkan pengguna menemukan dan membeli berbagai produk kebutuhan sehari-hari [citation:4][citation:9].
+**TokoModeMart** adalah aplikasi belanja online modern yang dibangun dengan **Expo** dan **React Native**, menggunakan **TypeScript**. Aplikasi ini dirancang untuk memberikan pengalaman berbelanja fashion yang elegan, cepat, dan aman.
+
+---
 
 ## 📱 Tampilan dan Fitur Aplikasi
 
-Berikut adalah gambaran fitur utama yang tersedia dalam aplikasi:
+Berikut adalah setiap halaman yang tersedia dalam aplikasi TokoModeMart beserta penjelasan singkatnya:
 
-### 1. Halaman Utama (Home)
-Halaman utama menyajikan katalog produk dengan tata letak grid yang bersih dan terstruktur [citation:5]. Di sini, pengguna dapat dengan cepat melihat:
-*   **Produk Unggulan**: Menampilkan produk-produk pilihan atau terlaris.
-*   **Kategori**: Ikon kategori seperti "Diskon", "Terlaris", dan "Rekomendasi" untuk memudahkan navigasi [citation:5].
-*   **Informasi Produk**: Setiap produk ditampilkan dengan gambar, nama, harga, dan label penting lainnya [citation:2].
+---
 
-### 2. Pencarian dan Filter
-Pengguna dapat mencari produk yang diinginkan melalui kolom pencarian. Fitur ini memungkinkan pencarian berdasarkan nama produk atau kategori, sehingga pengguna dapat menemukan barang dengan cepat dan efisien.
+### 1. Halaman Login / Masuk
+| | |
+|---|---|
+| **Judul Halaman** | Halaman Masuk |
+| **Deskripsi** | Halaman awal untuk pengguna melakukan autentikasi. Pengguna dapat memasukkan **Email** dan **Password**, serta menggunakan fitur **Lupa Password** jika diperlukan. Tersedia juga opsi **Daftar Akun Baru** bagi pengguna yang belum memiliki akun. |
 
-### 3. Keranjang Belanja
-Fitur keranjang memungkinkan pengguna mengumpulkan produk yang ingin dibeli sebelum melanjutkan ke proses checkout. Di halaman ini, pengguna dapat:
-*   Melihat daftar produk yang telah dipilih.
-*   Mengubah jumlah (quantity) produk.
-*   Menghapus produk dari keranjang.
-*   Melihat total harga belanja.
+---
 
-### 4. Proses Checkout
-Proses pembayaran dirancang semudah mungkin. Pengguna akan dipandu untuk:
-*   Memasukkan alamat pengiriman.
-*   Memilih metode pengiriman yang tersedia.
-*   Melakukan pembayaran melalui berbagai metode yang didukung.
+### 2. Halaman Profil Pengguna
+| | |
+|---|---|
+| **Judul Halaman** | Halaman Profil |
+| **Deskripsi** | Halaman ini menampilkan informasi profil pengguna, termasuk nama (**Tengku Ardhie Nugraha**) dan email (**Ardhie19@gmail.com**). Pengguna dapat melihat ringkasan pesanan (Total, Diproses, Selesai) serta mengakses menu seperti **Informasi Akun**, **Riwayat Pesanan**, **Alamat Saya**, dan **Metode Pembayaran**. |
 
-### 5. Manajemen Akun
-Pengguna dapat mengelola profil dan riwayat pembelian mereka melalui halaman akun. Fitur ini biasanya mencakup:
-*   **Profil Pengguna**: Melihat dan mengedit data diri.
-*   **Riwayat Pesanan**: Melihat daftar pesanan yang telah dilakukan beserta statusnya.
-*   **Alamat Tersimpan**: Mengelola daftar alamat pengiriman favorit.
+---
+
+### 3. Halaman Riwayat Pesanan
+| | |
+|---|---|
+| **Judul Halaman** | Riwayat Pesanan |
+| **Deskripsi** | Halaman ini menampilkan daftar semua pesanan yang telah dilakukan oleh pengguna. Setiap pesanan menampilkan **nomor pesanan**, **tanggal pemesanan**, **metode pembayaran**, **alamat pengiriman**, dan **total harga**. Pengguna juga dapat menekan tombol **Bayar Sekarang** untuk pesanan yang masih menunggu pembayaran. |
+
+---
+
+### 4. Halaman Keranjang Belanja
+| | |
+|---|---|
+| **Judul Halaman** | Keranjang Belanja |
+| **Deskripsi** | Halaman ini menampilkan semua produk yang telah ditambahkan ke keranjang. Setiap produk menampilkan **nama produk**, **harga**, dan **jumlah** yang dapat ditambah atau dikurangi. Di bagian bawah, pengguna dapat melihat **Total** harga semua produk dan melanjutkan ke proses checkout. |
+
+---
+
+### 5. Halaman Beranda (Home)
+| | |
+|---|---|
+| **Judul Halaman** | Beranda |
+| **Deskripsi** | Halaman utama aplikasi yang menyambut pengguna dengan sapaan **"Halo, Selamat Belanja!"**. Terdapat fitur **pencarian produk**, kategori produk (**Sweater**, **Hoodie**, **Jacket**, **Shoes**), serta daftar produk yang ditampilkan dalam bentuk kartu dengan **nama produk**, **harga**, dan tombol **Keranjang** untuk menambahkan produk ke keranjang belanja. |
+
+---
+
+### 6. Halaman Checkout
+| | |
+|---|---|
+| **Judul Halaman** | Checkout |
+| **Deskripsi** | Halaman ini digunakan untuk menyelesaikan proses pemesanan. Pengguna akan melalui tiga langkah: **Alamat**, **Pembayaran**, dan **Selesai**. Halaman ini menampilkan **Detail Pesanan** (daftar produk dan total harga), form **Alamat Pengiriman**, serta pilihan **Metode Pembayaran** seperti GoPay. |
+
+---
+
+### 7. Halaman Detail Produk
+| | |
+|---|---|
+| **Judul Halaman** | Detail Produk |
+| **Deskripsi** | Halaman ini menampilkan informasi lengkap tentang suatu produk, termasuk **nama produk**, **harga**, **stok tersedia**, dan **deskripsi produk**. Pengguna dapat melihat ketersediaan stok (misalnya "Sisa 1!") sebelum memutuskan untuk membeli. |
+
+---
 
 ## 🚀 Cara Menjalankan Aplikasi
 
